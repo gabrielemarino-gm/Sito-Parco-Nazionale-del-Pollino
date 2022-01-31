@@ -1,0 +1,1457 @@
+body
+{
+    background-color: rgb(253, 242, 222);
+    font-family: Calibri;
+}
+
+input[type="submit"] 
+{  
+	border-radius: 10px;
+    height: 30px;
+    background-color: #5F5F5F;
+    color: rgb(253, 242, 222);
+    margin: 8px 0;
+    border: 1px solid rgb(26, 26, 26);
+    cursor: pointer;
+    width: 130px;
+}
+
+input[type="submit"]:hover
+{
+    background-color: green;
+}
+
+
+input[type="text"] 
+{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(253, 242, 222);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(253, 242, 222);
+    font-size: 16px;
+}
+
+
+/* MENU DI NAVIGAZIONE */
+.menu
+{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgb(26, 26, 26);
+    text-align: center;
+    z-index: 1;
+}
+
+.menu img
+{
+    height: 30px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.menu a
+{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(150, 150, 150);
+    display: inline-block;
+}
+
+#logo
+{
+    height: 5px;
+}
+
+.menu a:hover
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+}
+
+
+
+/* ARTICOLI */
+.articolo
+{
+    margin-top: 5px;
+    width: 100%;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.articolo h1
+{
+    color:  rgb(253, 242, 222);;   
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 40px;
+    position: relative;
+    top: 530px;
+}
+
+
+.articolo img
+{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+/* FOOTER */
+footer
+{
+    margin-top: 5px;
+    background-color: black;
+    color: rgb(253, 242, 222);
+    text-align: center;
+}
+
+
+/* LOGIN PHP*/
+.titolo-login 
+{
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+
+.form-login 
+{
+    position: relative;
+    top: 100px;
+    margin: auto;
+    border: 1px solid #5F5F5F;
+    width: 320px;
+    height: 220px;
+    border-radius: 10px 10px 10px 10px;
+    padding:20px;
+    background-color: rgb(26, 26, 26);
+    box-shadow: 20px 20px 20px #ccc;
+    color:rgb(253, 242, 222);
+    text-align: center;
+}
+
+
+
+.form-login input[type="password"] 
+{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(253, 242, 222);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(253, 242, 222);
+    font-size: 16px;
+}
+
+
+.show 
+{
+    outline: none;
+    cursor: pointer;
+    padding: 4px 2px;
+    border: none;
+    background: rgb(26, 26, 26);
+    position: relative;
+    top: -35px;
+    right: -130px;
+    width: 35px;
+    height: 30px;
+    background-image: url("../foto/occhio_chiuso.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.psw 
+{
+    color: rgb(253, 242, 222);
+}
+
+.psw:hover 
+{
+    color: greenyellow;
+}
+
+
+
+/* REGISTRAZIONE PHP*/
+.titolo-registrazione 
+{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+
+.form-registrazione 
+{
+    margin: auto;
+    position: relative;
+    top: 50px;
+    border: 1px solid #5F5F5F;
+    width: 320px;
+    height: 420px;
+    border-radius: 10px 10px 10px 10px;
+    padding:20px;
+    background-color: rgb(26, 26, 26);
+    box-shadow: 20px 20px 20px #ccc;
+    color:rgb(253, 242, 222);
+    text-align: center;
+}
+
+
+.form-registrazione input[type="text"] 
+{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(253, 242, 222);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(253, 242, 222);
+    font-size: 16px;
+}
+
+
+.form-registrazione input[type="password"] 
+{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(253, 242, 222);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(253, 242, 222);
+    font-size: 16px;
+}
+
+.ripetuta
+{
+    position: relative;
+    top: -30px;
+}
+
+.data_nascita
+{
+    position: relative;
+    top: -30px; 
+}
+
+.container-checkbox
+{
+    position: relative;
+    top: -30px; 
+}
+
+.form-registrazione input[type="submit"] 
+{  
+	border-radius: 10px;
+    height: 40px;
+    background-color: #5F5F5F;
+    color: rgb(253, 242, 222);
+    margin: 8px 0;
+    border: 1px solid rgb(26, 26, 26);
+    cursor: pointer;
+    width: 50%;
+    position: relative;
+    top: -30px;
+}
+
+.show 
+{
+    outline: none;
+    cursor: pointer;
+    padding: 4px 2px;
+    border: none;
+    background: rgb(26, 26, 26);
+    position: relative;
+    top: -35px;
+    right: -130px;
+    width: 35px;
+    height: 30px;
+    background-image: url("../foto/occhio_chiuso.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+
+.form-registrazione input[type="date"] 
+{  
+	border-radius: 10px;  
+    color: rgb(26, 26, 26);
+    text-align: center;
+    border: 1px solid rgb(26, 26, 26);
+    cursor: pointer;
+    width: 50%;
+}
+
+
+/* ARRIVEDERCI PHP*/
+.arrivederci_div
+{
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    border: 1px solid #5F5F5F;
+    margin: auto;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px 10px 10px 10px;
+    padding:20px;
+    background-color: rgb(26, 26, 26);
+    box-shadow: 20px 20px 20px #ccc;
+    color:rgb(253, 242, 222);
+    text-align: center;
+}
+
+.arrivederci_div input[type="submit"] 
+{  
+    position: relative;
+    top: -30px;
+}
+
+
+/* AREA PERSONALE */
+.titolo-profilo
+{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+
+.contenitore-profilo
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -500px;
+    width: 1000px;
+    height: 500px;
+}
+
+
+.img-profilo
+{
+    margin: 20px auto;
+    overflow: hidden;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px 10px 10px 10px;
+    
+    position: relative;
+    top: -50px;
+    left: -200px;
+    
+}
+
+
+.img-profilo img
+{
+    height: 100%;
+    margin-left: 50%; 
+    transform: translateX(-50%);
+}
+
+.info-profilo
+{
+    width: 350px;
+    height: 500px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(26, 26, 26);
+    box-shadow: 20px 20px 20px #ccc;
+    color:rgb(253, 242, 222);
+    text-align: center;
+    position: relative;
+    top: -570px;
+    right: -500px;
+    font-size: 20px;
+}
+
+.info-profilo p
+{
+    position: relative;
+    top: 50px;
+}
+
+.info-profilo input
+{
+    position: relative;
+    top: 100px;
+}
+
+
+/* CONFERMA LOGIN*/
+.form-conferma-login
+{
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    border: 1px solid #5F5F5F;
+    margin: auto;
+    width: 320px;
+    height: 200px;
+    border-radius: 10px 10px 10px 10px;
+    padding:20px;
+    background-color: rgb(26, 26, 26);
+    box-shadow: 20px 20px 20px #ccc;
+    color:rgb(253, 242, 222);
+    text-align: center;
+}
+
+
+.form-conferma-login input[type="text"] 
+{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(253, 242, 222);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(253, 242, 222);
+    font-size: 16px;
+}
+
+.form-conferma-login input[type="password"] 
+{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(253, 242, 222);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(253, 242, 222);
+    font-size: 16px;
+}
+
+
+.show 
+{
+    outline: none;
+    cursor: pointer;
+    padding: 4px 2px;
+    border: none;
+    background: rgb(26, 26, 26);
+    position: relative;
+    top: -35px;
+    right: -130px;
+    width: 35px;
+    height: 30px;
+    background-image: url("../foto/occhio_chiuso.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+/* ERRORE LOGIN */
+.errore-login
+{
+    color: red;
+    text-align: center;
+    position: relative;
+    top: 400px;
+    z-index: 1;
+}
+
+
+/* MODIFICA PROFILO */
+
+.titolo-modifica 
+{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+
+.contenitore-mod
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -500px;
+    width: 1000px;
+    height: 500px;
+}
+
+
+.form-modifica
+{
+    position: relative;
+    top: -28px;
+    left: 200px;
+    border: 1px solid #5F5F5F;
+    margin: auto;
+    width: 320px;
+    height: 460px;
+    border-radius: 10px 10px 10px 10px;
+    padding:20px;
+    background-color: rgb(26, 26, 26);
+    box-shadow: 20px 20px 20px #ccc;
+    color:rgb(253, 242, 222);
+    text-align: center;
+}
+
+
+.form-modifica input[type="text"] 
+{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(253, 242, 222);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(253, 242, 222);
+    font-size: 16px;
+}
+
+
+.form-modifica input[type="password"] 
+{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(253, 242, 222);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(253, 242, 222);
+    font-size: 16px;
+}
+
+.ripetuta-mod
+{
+    position: relative;
+    top: -30px;
+}
+
+
+
+
+.form-img-profilo
+{
+    position: relative;
+    top: -50px;
+}
+
+.form-modifica input[type="file"]
+{  
+	border-radius: 10px;
+    height: 30px;
+    background-color: #5F5F5F;
+    color: rgb(253, 242, 222);
+    margin: 8px 0;
+    border: 1px solid rgb(26, 26, 26);
+    cursor: pointer;
+    width: 40%;
+    position: relative;
+    top: -4px;
+}
+
+
+.show 
+{
+    outline: none;
+    cursor: pointer;
+    padding: 4px 2px;
+    border: none;
+    background: rgb(26, 26, 26);
+    position: relative;
+    top: -35px;
+    right: -130px;
+    width: 35px;
+    height: 30px;
+    background-image: url("../foto/occhio_chiuso.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+
+.modPass
+{
+    position: relative;
+    top: -60px;
+}
+
+
+.contenitore-img-mod
+{
+    margin-top: -250px;
+    margin-left: -700px;
+
+}
+
+
+.img-mod
+{
+    margin: 20px auto;
+    width: 20%;
+    overflow: hidden;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px 10px 10px 10px;
+    
+    position: relative;
+    top: -550px;
+    left: -200px;
+}
+
+
+.img-mod img
+{
+    height: 100%;
+    margin-left: 50%; 
+    transform: translateX(-50%);
+}
+
+
+.home-mod
+{
+    position: relative;
+    top: -80px;
+}
+
+.scegli-foto-button
+{
+    position: relative;
+    left: -70px;
+}
+
+.carica-foto-button
+{
+    position: relative;
+    top: -46px;
+    left: 70px;
+}
+
+/* VALIDA GUIDE*/
+.contenitore-guida
+{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #5F5F5F;
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(26, 26, 26);
+    box-shadow: 20px 20px 20px #ccc;
+    color:rgb(253, 242, 222);
+    
+    position: relative;
+    top: 50px;
+}
+
+p.nome-guida
+{
+    position: relative;
+    top: -2px;
+    left: 20px;
+}
+
+p.email-guida
+{
+    position: relative;
+    top: -37px;
+    left: 350px;
+}
+
+p.username-guida
+{
+    position: relative;
+    top: -72px;
+    left: 800px;
+}
+
+
+input.accetta-guida
+{
+    position: relative;
+    top: -122px;
+    left: 80%;
+}
+
+input.rifiuta-guida
+{
+    position: relative;
+    top: -168px;
+    left: 90%;
+}
+
+
+/* POST PHP*/
+.titolo-post
+{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+
+.box-nuovo-post
+{
+    width: 800px;
+    border: 1px solid #5F5F5F;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(26, 26, 26);
+    box-shadow: 20px 20px 20px #ccc;
+    color:rgb(253, 242, 222);
+    
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
+
+.box-nuovo-post input[type="button"] 
+{  
+	border-radius: 10px;
+    height: 30px;
+    background-color: #5F5F5F;
+    color: rgb(253, 242, 222);
+    margin: 8px 150px;
+    border: 1px solid rgb(26, 26, 26);
+    cursor: pointer;
+    width: 500px;    
+}
+
+.box-nuovo-post textarea
+{
+    width: 750px;
+    margin: 0px 0px 10px 25px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(253, 242, 222);
+    background: transparent;
+    color: rgb(253, 242, 222);
+    
+    resize: none;
+    font-size: 18px;
+    min-height: 150px;
+
+    position: relative;
+    top: -40px;
+}
+
+div.testo-post
+{
+    width: 750px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(253, 242, 222);   
+    resize: none;
+    font-size: 18px;
+    margin-top: -50px;
+    position: relative;
+}
+
+
+.bottone-segli-immagine
+{
+    position: relative;
+    top: 190px;
+    left: 515px;
+} 
+
+.bottone-post
+{
+    position: relative;
+    top: -25px;
+    left: 650px;
+} 
+
+textarea:valid ~ input[type="submit"]
+{
+    color: rgb(253, 242, 222);
+    cursor: pointer;
+    background: green;
+}
+
+textarea:valid ~ input[type="submit"]:hover
+{
+    background: green;
+}
+
+
+.contenitore-post
+{
+    width: 800px;
+    border: 1px solid #5F5F5F;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(26, 26, 26);
+    box-shadow: 20px 20px 20px #ccc;
+    color:rgb(253, 242, 222);
+    font-size: 18px;
+
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contenitore-foto-post
+{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 100px;
+
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+.contenitore-foto-post img
+{
+    width: 100%;
+    margin-left: 50%; 
+    transform: translateX(-50%);
+}
+
+.nome-utente-post
+{
+    position: relative;
+    top: -50px;
+    left: 70px;
+}
+
+
+.data-post
+{
+    font-size: 12px;
+    position: relative;
+    top: -110px;
+    left: 670px;
+}
+
+.testo-post
+{
+    position: relative;
+    top: -50px;
+    left: 30px;
+}
+
+
+input.mi-piace
+{
+    position: relative;
+    top: 32px;
+    left: 520px;
+}
+
+
+input.commenta
+{
+    position: relative;
+    top: -14px;
+    left: 660px;
+}
+
+input.elimina
+{
+    position: relative;
+    top: 32px;
+    left: -120px;
+}
+
+
+p.errore-post
+{
+    color: red;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+/* SLIDER */
+.slideshow-container 
+{
+    height: 600px;
+    width: 800px;
+    position: relative;
+    top: -20px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+img.img-slider
+{
+	position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.prev, .next 
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(253, 242, 222);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next 
+{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover 
+{
+    background-color: rgb(253, 242, 222, 0.5);
+;
+}
+
+.fade 
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade 
+{
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade 
+{
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) 
+{
+    .prev, .next,.text {font-size: 11px}
+}
+
+p.numero-mi-piace
+{
+    position: relative;
+    top: 40px;
+    left: 650px;
+}
+
+/* COMMENTI*/
+input[type="text"].scrivi-commento
+{
+    width: 650px;
+    border: none;
+    border-bottom: 1px solid rgb(253, 242, 222);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(253, 242, 222);
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+    top: -15px;
+}
+
+
+input.scrivi-commento
+{
+    position: relative;
+    top: -10px;
+    left: 2px;
+}
+
+.contenitore-foto-commento
+{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 100px;
+
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.contenitore-foto-commento img
+{
+    width: 100%;
+    margin-left: 50%; 
+    transform: translateX(-50%);
+}
+
+div.testo-commento
+{
+    width: 650px;
+    min-height: 50px;
+    margin: auto;
+    outline: none;
+    background: #5F5F5F;
+    border-radius: 10px;
+    color: rgb(253, 242, 222);   
+    resize: none;
+    font-size: 18px;
+    position: relative;
+    top: -32px;
+    left: 5px;
+    padding: 10px;
+}
+
+input.hide-commenti
+{
+    background: transparent;
+    border: none;
+    color: rgb(253, 242, 222); 
+    position: relative;
+    top: -10px;
+    left: 650px;  
+}
+
+input.hide-commenti:hover
+{
+    background: transparent;
+    border: none;
+    color: green;   
+    cursor: pointer;
+}
+
+
+/*EVENTI PHP*/
+.box-nome-evento input[type="text"]
+{
+    background: transparent;
+    margin-left: 25px;
+    width: 325px;
+
+    position: relative;
+    top: -40px;
+}
+
+.box-data-evento p
+{
+    margin-left: 25px;
+    position: relative;
+    top: -35px;
+}
+
+.box-data-evento input[type="date"]
+{
+    margin-left: 25px;
+    border-radius: 10px;  
+    color: rgb(26, 26, 26);
+    text-align: center;
+    border: 1px solid rgb(26, 26, 26);
+    cursor: pointer;
+    width: 125px;
+
+    position: relative;
+    top: -72px;
+    left: 190px;
+}
+
+.ora-evento-p-new
+{
+    margin-left: 25px;
+    position: relative;
+    top: -70px;
+}
+
+.ora-evento-new
+{
+    margin-left: 200px;
+    width: 30px;
+    position: relative;
+    top: -105px;
+}
+
+.ora-evento-duepunti-new
+{
+    margin-left: 242px;
+    position: relative;
+    top: -143px;
+}
+
+.min-evento-new
+{
+    margin-left: 250px;
+    width: 30px;
+
+    position: relative;
+    top: -178px;
+}
+
+
+.box-luogo-evento input[type="text"]
+{
+    background: transparent;
+    margin-left: 25px;
+    width: 325px;
+
+    position: relative;
+    top: -170px;
+}
+
+
+.box-descrizione-evento textarea
+{
+    width: 325px;
+    position: relative;
+    top: -325px;
+    left: 400px;
+}
+
+.box-bottone-scegli-immagine
+{
+    position: relative;
+    left: -20px;
+}
+
+.box-bottone-posta-evento
+{
+    position: relative;
+    top: -305px;
+    left: -10px;
+}
+
+
+.button-iscriviti
+{
+    position: relative;
+    top: -10px;
+    left: 650px;
+}
+
+
+.button-organizzatore
+{
+    position: relative;
+    top: -10px;
+    left: 500px;
+}
+
+
+
+/* EVENTI CARICATI*/
+.nome-evento
+{
+    margin-left: 30px;
+    position: relative;
+    top: -80px;
+}
+
+
+div.testo-evento
+{
+    width: 750px;
+    margin: auto;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(253, 242, 222);   
+    resize: none;
+    font-size: 18px;
+    
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    top: -130px;
+}
+
+.data-evento
+{
+    margin-left: 30px;
+    position: relative;
+    top: -90px;
+}
+
+.ora-evento
+{
+    margin-left: 30px;
+    position: relative;
+    top: -130px;
+    left: 105px;
+}
+
+.luogo-evento
+{
+    margin-left: 30px;
+    position: relative;
+    top: -171px;
+    left: 185px;
+}
+
+.data-caricamento-evento
+{
+    font-size: 12px;
+    position: relative;
+    top: -170px;
+    left: 670px;
+}
+
+
+
+table 
+{
+    border-collapse:collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+td, th 
+{
+    border:1px solid #ddd;
+    padding:8px;
+}
+
+
+
+.non-iscritto-h1
+{
+    color: red;
+}
+
+a.torna-indietro:hover
+{
+    color: green;
+}
+
+/*SCRIVI ARTICOLO */
+.box-inserimento-articolo
+{
+    width: 800px;
+    height: 510px;
+    border: 1px solid #5F5F5F;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(26, 26, 26);
+    box-shadow: 20px 20px 20px #ccc;
+    color:rgb(253, 242, 222);
+    
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
+
+.box-inserimento-articolo input[type="text"]
+{
+    margin-left: 25px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.box-inserimento-articolo textarea
+{
+    margin-left: 25px;
+    width: 750px;
+    height: 380px;
+    margin: 0px 0px 10px 25px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(253, 242, 222);
+    background: transparent;
+    color: rgb(253, 242, 222);
+    
+    resize: none;
+    font-size: 18px;
+
+    position: relative;
+    top: 0px;
+}
+
+.bottone-invia-articolo
+{
+    position: relative;
+    top: -10px;
+    left: 650px;
+}
+
+.bottone-segli-immagine-articolo
+{
+    position: relative;
+    top: -55px;
+    left: 500px;
+}
+
+.info-articolo
+{
+    
+    color: green;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    z-index: 1;
+    
+}
+
+/*VISUALIZZA ARTICOLO*/
+
+.foto-articolo
+{
+    width: 1000px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+
+    position: relative;
+    top: 50px;
+}
+
+
+.foto-articolo img
+{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.testo-articolo
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-size: 18px;
+
+    position: relative;
+    top: 100px;
+}
+
+.contenitore-articolo-valida
+{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    border: 1px solid #5F5F5F;
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(26, 26, 26);
+    box-shadow: 20px 20px 20px #ccc;
+    color:rgb(253, 242, 222);
+    
+    position: relative;
+    top: 50px;
+}
+
+.contenitore-articolo-valida p
+{
+    margin-left: 25px;
+}
+
+.accetta-articolo
+{
+    position: relative;
+    top: -50px;
+    left: 700px;
+}
+
+.rifiuta-articolo
+{
+    position: relative;
+    top: -50px;
+    left: 700px;
+}
+
+.visualizza-articolo
+{
+    position: relative;
+    top: -95px;
+    left: 560px;
+}
+
+.accetta-post, .rifiuta-post
+{
+    position: relative;
+    left: 520px;
+    top: -5px;
+}
+
+/*BADGE GUIDA*/
+.contenitore-badge-post
+{
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    border-radius: 100px;
+
+    position: relative;
+    top: -88px;
+    left: 220px;
+}
+
+
+.contenitore-badge-post img
+{
+    width: 100%;
+    margin-left: 50%; 
+    transform: translateX(-50%);
+    position: relative;
+    top: -0.001px;
+}
+
+/*MANUALE HTML*/
+
+.box-manuale
+{
+    width: 1000px;
+    border: 1px solid #5F5F5F;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(26, 26, 26);
+    box-shadow: 20px 20px 20px #ccc;
+    color:rgb(253, 242, 222);
+    font-size: 18px;
+
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titolo-manuale
+{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
